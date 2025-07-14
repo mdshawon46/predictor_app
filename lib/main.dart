@@ -1,17 +1,17 @@
 
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(PredictorProApp());
 
-class MyApp extends StatelessWidget {
+class PredictorProApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Predictor Pro',
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: Scaffold(
-        appBar: AppBar(title: Text('Predictor App')),
-        body: Center(child: Text('Welcome to the Predictor App!')),
+        appBar: AppBar(title: Text('Predictor Pro')),
+        body: Center(child: Text('Welcome to Predictor Pro!')),
       ),
     );
   }
