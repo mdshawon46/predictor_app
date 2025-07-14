@@ -1,8 +1,8 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.predictor_app">
+    package="com.example.predictor_pro">
     <application
-        android:label="predictor_app"
+        android:label="Predictor Pro"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
